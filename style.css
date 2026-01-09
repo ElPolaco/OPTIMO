@@ -104,6 +104,11 @@ main .square{
 
 /* MEDIUM SCREEN */
 @media only screen and (min-width: 583px) and (max-width: 900px) {
+    header
+    {
+        border: 5px solid black;
+        border-bottom: 10px solid black;
+    }
     /* SQUARES */
     main .square{
         width: 150px;
@@ -156,6 +161,55 @@ main .square{
 
 /* DESKTOP */
 @media only screen and (min-width: 900px) {
-    
+    header
+    {
+        border: 5px solid black;
+        border-bottom: 10px solid black;
+    }
+    /* SQUARES */
+    main .square{
+        width: 150px;
+    }
+    .square-up
+    {
+        top: 5.5%;
+        left: 13%;
+    }
+    .square-down
+    {
+        top: 30%;
+        left: 2.5%;
+    }
+    /* BARS */
+    .bars
+    {
+        width: 200px;
+        top: 30%;
+        left:35%;
+    }
+    .bars .bar
+    {
+       right: 15px;
+    }
+    /* CIRCLE */
+    .circle
+    {
+        top: 29%;
+        left: 53%;
+    }
+
+    /* RECTANGLE */
+    .rectangle
+    {
+        right: 5%;
+        bottom: unset;
+        left:unset;
+        transform: unset;
+        height: unset;
+        width: 20%;
+        bottom: 15px;
+        top: 10%;
+        background: #FFF;
+    }
 }
  
