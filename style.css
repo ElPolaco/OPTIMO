@@ -101,13 +101,61 @@ main .square{
     text-align: center;
     background: blue;
 }
-/* TODO: IMPLEMENT MEDIUM SCREEN AND DESKTOP */
+
 /* MEDIUM SCREEN */
 @media only screen and (min-width: 583px) and (max-width: 900px) {
-    
+    /* SQUARES */
+    main .square{
+        width: 150px;
+    }
+    .square-up
+    {
+        top: 5%;
+        left: 25%;
+    }
+    .square-down
+    {
+        top: 23%;
+        left: 6%;
+    }
+    /* BARS */
+    .bars
+    {
+        width: 200px;
+        top: unset;
+        bottom: 10%;
+    }
+    .bars .bar
+    {
+       right: 15px;
+    }
+    /* CIRCLE */
+    .circle
+    {
+        bottom: 9%;
+        top: unset;
+        left: 30%;
+    }
+
+    /* RECTANGLE */
+    .rectangle
+    {
+        right: 5%;
+        bottom: unset;
+        left:unset;
+        transform: unset;
+        height: unset;
+        width: 27%;
+        bottom: 15px;
+        top: 10%;
+        background: #C83737;
+    }
 }
+
+/* TODO: IMPLEMENT DESKTOP */
 
 /* DESKTOP */
 @media only screen and (min-width: 900px) {
     
 }
+ 
