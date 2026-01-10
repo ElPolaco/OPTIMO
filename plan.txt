@@ -1,0 +1,21 @@
+Since the room renovation seems to be quite a complicated process, an approach following the divide-and-conquer algorithm appears to be natural in the given context.
+Therefore, the whole task should be split into a few simpler ones.
+
+First step - evaluation
+
+In order to perform a well-planned renovation, it's necessary to evaluate the existing issues and their importance.
+For example, removing mold from a wall should be prioritized over upgrading a well-functioning desk.
+This step not only ensures that the most urgent repairs will be made, but it also helps manage the budget more wisely.
+
+Second step - preparing the environment
+
+Depending on the scale of the renovation, prepare a proper workspace for the job.
+
+Third step - making repairs
+
+It's time to work. Major tasks, like painting walls or replacing the old floor, should be done first. 
+
+Last step - cleaning and rearranging
+
+Every renovation produces a mess that requires a cleanup afterwards. Once clean, it's time to rearrange the old-new room.
+
