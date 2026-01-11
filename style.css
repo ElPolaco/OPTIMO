@@ -4,6 +4,8 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
+/* LAYOUT */
 body{
     width: 100vw;
     height: 100vh;
@@ -93,7 +95,7 @@ main .square{
     font-size: 45px;
     height: 40%;
     padding: 25px;
-    left: 50%;
+    left: 50%; /*CENTERING HORIZONTALLY*/
     transform: translate(-50%, 0);
     margin: 5px;
     bottom: 5px;
@@ -157,7 +159,6 @@ main .square{
     }
 }
 
-/* TODO: IMPLEMENT DESKTOP */
 
 /* DESKTOP */
 @media only screen and (min-width: 900px) {
