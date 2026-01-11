@@ -170,6 +170,11 @@ main .square{
     /* SQUARES */
     main .square{
         width: 150px;
+        transition: 1s;
+    }
+    main .square:hover
+    {
+        transform: rotate(90deg);
     }
     .square-up
     {
@@ -187,6 +192,10 @@ main .square{
         width: 200px;
         top: 30%;
         left:35%;
+        transition: 1s;
+    }
+    .bars:hover{
+        transform: rotate(45deg);
     }
     .bars .bar
     {
@@ -197,6 +206,13 @@ main .square{
     {
         top: 29%;
         left: 53%;
+        transition: 1s;
+    }
+    .circle:hover
+    {
+        width: 200px;
+        background: brown;
+        height: 200px;
     }
 
     /* RECTANGLE */
@@ -211,6 +227,12 @@ main .square{
         bottom: 15px;
         top: 10%;
         background: #FFF;
+        transition: 1s;
+    }
+    .rectangle:hover
+    {
+        background: black;
+        color: #FFF;
     }
 }
  
